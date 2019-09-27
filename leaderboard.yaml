@@ -33,7 +33,7 @@ spec:
     spec:
       containers:
         - name: leaderboard
-          image: sreedcker123/shopleaderboards:latest
+          image: sreedocker123/shopleaderboards:latest
           imagePullPolicy: Always
           ports:
             - containerPort: 8080
