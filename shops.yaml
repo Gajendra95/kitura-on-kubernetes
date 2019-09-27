@@ -6,7 +6,7 @@ metadata:
   labels:
     app: shop
 spec:
-  type: ClusterIP
+  type: NodePort
   ports:
     - name: http
       port: 8080
@@ -34,7 +34,7 @@ spec:
       containers:
         - name: shop
           image: sreedocker123/shopshops:latest
-          imagePullPolicy: Always
+          imagePullPolkubectl apply -f manifests/postgres.yamlicy: Always
           ports:
             - containerPort: 8080
           env:
