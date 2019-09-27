@@ -34,7 +34,7 @@ spec:
       containers:
         - name: shop
           image: sreedocker123/shopshops:latest
-          imagePullPolkubectl apply -f manifests/postgres.yamlicy: Always
+          imagePullPolicy: Always
           ports:
             - containerPort: 8080
           env:
